@@ -1,5 +1,4 @@
-# MERN-BUS-APP
-## MFRP (My First Real Project) assigned by Cognizant during Internship
+
 
 A Bus ticket booking application made using MERN Stack (MongoDB, Express js, React js, Node js)
 
@@ -39,45 +38,7 @@ The Bus ticket application is composed of the following Features:
 
 
 This project also demonstrates:
-
 * a typcial React project layout structure
-
-**Screenshots:**
-Landing Page:
-
-![](documentationResources/bus.gif)
-
-Signing In Page:
-
-![](documentationResources/signin.png)
-
-Bus Selection Page:
-
-![](documentationResources/bus-page.png)
-
-Seat Selection Page:
-
-![](documentationResources/seatSelection.gif)
-
-Payment & Confirmation Page:
-![](documentationResources/payment.gif)
----
-
-## Developed With
-
-* [Visual Studio Code](https://code.visualstudio.com/) - A source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring
-* [Node.js](https://nodejs.org/en/) - Javascript runtime
-* [React](https://reactjs.org/) - A javascript library for building user interfaces
-* [Babel](https://babeljs.io/) - A transpiler for javascript
-* [Webpack](https://webpack.js.org/) - A module bundler
-* [SCSS](http://sass-lang.com/) - A css metalanguage
-* [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
-* [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
-* [Express js](http://expressjs.com/) - Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
-* [MongoDB atlas](https://www.mongodb.com/cloud/atlas) - MongoDB Atlas is the global cloud database service for modern applications.
-* [Passport Js](http://www.passportjs.org/) - Passport is authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application.
----
-
 
 ## Getting Started
 
@@ -85,60 +46,41 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The following software is required to be installed on your system:
-
-* Node 8.x
-* Npm 3.x
-
-Type the following commands in the terminal to verify your node and npm versions
-
-```bash
-node -v
-npm -v
-```
-
-### Install
-
-Follow the following steps to get development environment running.
-
-* Clone _'MERN-BUS-APP.git'_ repository from GitHub
-
-  ```bash
-  git clone https://github.com/AdityaKumawat97/MERN-BUS-APP.git
-  ```
-
-   _OR USING SSH_
-
-  ```bash
-  git clone git@github.com:AdityaKumawat97/MERN-BUS-APP.git
-  ```
-
 * Install node modules
 
    ```bash
    cd MERN-BUS-APP
    cd frontend
    npm install
-   cd..
+   npm start
+   
+  open another terminal
+
+   go current project directory
+   
    cd backend
    npm install
+   npm start
    ```
 
+```bash if above comands does not work ```
 
-### Starting both front end and back end servers
+```bash
+   cd MERN-BUS-APP
+   cd frontend
+   npm install
+   export NODE_OPTIONS=--openssl-legacy-provider
+   npm start
 
-* Build application
+   open another terminal
 
-  This command will start the mongodb and the front end part.
-
-  ```bash
-  cd frontend
-  npm start
-  cd..
-  cd backend
-  npm run devStart
-  ```
-
+   go current project directory
+   cd backend
+   npm uninstall bcrypt;
+   npm install bcryptjs;
+   npm install bcrypt;
+   npm start
+   ```
 
 ---
 
